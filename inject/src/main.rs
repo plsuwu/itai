@@ -10,7 +10,7 @@ use winapi::um::synchapi::WaitForSingleObject;
 use crate::inject::injector::{self, InjectorResult};
 
 const FILENAME: &str =
-    "C:\\Users\\Peas\\Desktop\\itai\\target\\debug\\dylib.dll";
+    "C:\\Users\\Peas\\Documents\\itai\\target\\debug\\dylib.dll";
 
 const TARGET_PROCESS_NAME: &str = "hollow knight silksong.exe";
 
